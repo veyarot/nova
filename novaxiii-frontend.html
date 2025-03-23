@@ -1,0 +1,1646 @@
+<!-- index.html (Landing/Recruiting Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVAXIII Insurance Agency | Elite Agent Opportunities</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="landing-page">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="NOVAXIII Logo">
+                <h1>NOVAXIII</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#opportunities">Opportunities</a></li>
+                    <li><a href="#why-join">Why Join Us</a></li>
+                    <li><a href="#apply">Apply Now</a></li>
+                    <li><a href="login.html" class="btn btn-gold">Agent Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Join The Elite</h2>
+                <h3>Unlock Your Potential with NOVAXIII</h3>
+                <p>We're looking for ambitious insurance professionals ready to take their career to the next level.</p>
+                <a href="#apply" class="btn btn-gold btn-large">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About NOVAXIII</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>NOVAXIII is a premier insurance agency dedicated to excellence and innovation in the insurance industry. Our team of elite agents provides exceptional service to our clients while building successful, rewarding careers.</p>
+                    <p>Founded on principles of integrity, innovation, and client-focused service, we've grown to become industry leaders by empowering our agents to achieve their highest potential.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>95%</h3>
+                        <p>Agent Satisfaction</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>$120K+</h3>
+                        <p>Average Agent Income</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Support System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="opportunities" class="opportunities">
+        <div class="container">
+            <h2>Career Opportunities</h2>
+            <div class="opportunities-grid">
+                <div class="opp-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Insurance Agent</h3>
+                    <p>Join our team of high-performing insurance agents with unlimited earning potential and comprehensive training.</p>
+                </div>
+                <div class="opp-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Team Leader</h3>
+                    <p>Lead a team of successful agents while continuing to grow your own client base and income.</p>
+                </div>
+                <div class="opp-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Agency Owner</h3>
+                    <p>Build your own agency under our proven system with full support and resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-join" class="why-join">
+        <div class="container">
+            <h2>Why Join NOVAXIII</h2>
+            <div class="benefits-grid">
+                <div class="benefit">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Unlimited Income</h3>
+                    <p>Our compensation structure rewards performance with no caps on your earning potential.</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Top-Tier Training</h3>
+                    <p>Comprehensive training programs to ensure your success from day one.</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-tools"></i>
+                    <h3>Advanced Resources</h3>
+                    <p>Access to cutting-edge technology and marketing tools to build your business.</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Supportive Community</h3>
+                    <p>Join a team of like-minded professionals who support each other's success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Agent Success Stories</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="quote">
+                        <p>"Joining NOVAXIII was the best career decision I've ever made. In my first year, I doubled my previous income and helped more clients than I thought possible."</p>
+                    </div>
+                    <div class="author">
+                        <img src="agent1.jpg" alt="Agent portrait">
+                        <div class="author-info">
+                            <h4>Michael Roberts</h4>
+                            <p>Senior Agent - 4 Years</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">
+                        <p>"The support system and training at NOVAXIII set you up for success. I went from a complete beginner to top 10% of agents in just 18 months."</p>
+                    </div>
+                    <div class="author">
+                        <img src="agent2.jpg" alt="Agent portrait">
+                        <div class="author-info">
+                            <h4>Samantha Chen</h4>
+                            <p>Team Leader - 3 Years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apply" class="apply">
+        <div class="container">
+            <h2>Apply to Join Our Team</h2>
+            <form id="application-form" action="/submit-application" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="City, State" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="experience">Insurance Experience</label>
+                    <select id="experience" name="experience" required>
+                        <option value="">Select one</option>
+                        <option value="none">No experience</option>
+                        <option value="less-than-1">Less than 1 year</option>
+                        <option value="1-3">1-3 years</option>
+                        <option value="3-5">3-5 years</option>
+                        <option value="5+">5+ years</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="licenses">Current Insurance Licenses (Select all that apply)</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="licenses" value="life"> Life</label>
+                        <label><input type="checkbox" name="licenses" value="health"> Health</label>
+                        <label><input type="checkbox" name="licenses" value="property"> Property</label>
+                        <label><input type="checkbox" name="licenses" value="casualty"> Casualty</label>
+                        <label><input type="checkbox" name="licenses" value="none"> None</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Why are you interested in joining NOVAXIII?</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="resume">Upload Resume (Optional)</label>
+                    <input type="file" id="resume" name="resume">
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-gold btn-large">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="NOVAXIII Logo">
+                    <h3>NOVAXIII</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#opportunities">Opportunities</a></li>
+                        <li><a href="#why-join">Why Join Us</a></li>
+                        <li><a href="#apply">Apply Now</a></li>
+                        <li><a href="login.html">Agent Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> careers@novaxiii.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 NOVAXIII Insurance Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!-- login.html (Agent Login Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Login | NOVAXIII Insurance Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-left">
+            <div class="login-content">
+                <div class="logo">
+                    <img src="logo.png" alt="NOVAXIII Logo">
+                    <h1>NOVAXIII</h1>
+                </div>
+                <h2>Agent Portal</h2>
+                <p>Enter your credentials to access your dashboard, track your performance, and access resources.</p>
+                <div class="login-form">
+                    <form id="login-form" action="/agent/login" method="POST">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-group remember-forgot">
+                            <label class="remember">
+                                <input type="checkbox" name="remember">
+                                <span>Remember me</span>
+                            </label>
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-gold btn-large">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="back-to-site">
+                    <a href="index.html"><i class="fas fa-arrow-left"></i> Back to Main Site</a>
+                </div>
+            </div>
+        </div>
+        <div class="login-right">
+            <div class="login-image"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!-- dashboard.html (Agent Dashboard) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Dashboard | NOVAXIII Insurance Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <img src="logo.png" alt="NOVAXIII Logo">
+                    <h1>NOVAXIII</h1>
+                </div>
+                <button id="sidebar-toggle" class="sidebar-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="agent-profile">
+                <img src="agent-avatar.jpg" alt="Agent Avatar" class="agent-avatar">
+                <div class="agent-info">
+                    <h3 id="agent-name">John Smith</h3>
+                    <p id="agent-role">Senior Agent</p>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active">
+                        <a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-chart-line"></i> Production</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-user-plus"></i> Recruiting</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-graduation-cap"></i> Training</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-phone"></i> Phone Scripts</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-file-powerpoint"></i> Presentations</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-briefcase"></i> Manager Resources</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                    </li>
+                    <li>
+                        <a href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="dashboard-header">
+                <div class="date-selector">
+                    <button id="prev-date" class="date-nav-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="date-range">
+                        <i class="far fa-calendar-alt"></i>
+                        <span id="current-date-range">Mar 17, 2025 - Mar 23, 2025</span>
+                    </div>
+                    <button id="next-date" class="date-nav-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="view-selector">
+                    <button class="view-btn active">My View</button>
+                    <button class="view-btn">Team View</button>
+                    <button class="view-btn">Agency View</button>
+                </div>
+            </header>
+
+            <div class="dashboard-content">
+                <section class="activity-section">
+                    <h2>Activity</h2>
+                    <div class="activity-metrics">
+                        <div class="metric-card large">
+                            <h3>ALP</h3>
+                            <div class="metric-value">
+                                <div class="loading-spinner"></div>
+                            </div>
+                        </div>
+                        <div class="metric-card large">
+                            <h3>Ref ALP</h3>
+                            <div class="metric-value">
+                                <div class="loading-spinner"></div>
+                            </div>
+                        </div>
+                        <div class="metric-row">
+                            <div class="metric-card">
+                                <h3>Calls</h3>
+                                <div class="metric-chart calls-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">0</span>
+                                        <span class="stat-label">Call/Set</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Appts</h3>
+                                <div class="metric-chart appts-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">0%</span>
+                                        <span class="stat-label">Show</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Refs</h3>
+                                <div class="metric-chart refs-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">0</span>
+                                        <span class="stat-label">Refs/Sit</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Ref Appts</h3>
+                                <div class="metric-chart ref-appts-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">0%</span>
+                                        <span class="stat-label">Ref Appts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="metric-row">
+                            <div class="metric-card">
+                                <h3>Sits</h3>
+                                <div class="metric-chart sits-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">0%</span>
+                                        <span class="stat-label">Close</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Sales</h3>
+                                <div class="metric-chart sales-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">$0</span>
+                                        <span class="stat-label">ALP/Sit</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Ref Sits</h3>
+                                <div class="metric-chart ref-sits-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">0%</span>
+                                        <span class="stat-label">Close</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Ref Sales</h3>
+                                <div class="metric-chart ref-sales-chart">
+                                    <div class="metric-stat">
+                                        <span class="stat-value">$0.00</span>
+                                        <span class="stat-label">ALP/Sale</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="leaderboard-section">
+                    <div class="leaderboard-header">
+                        <h2>Leaderboard</h2>
+                        <div class="leaderboard-controls">
+                            <div class="leaderboard-tabs">
+                                <button class="leaderboard-tab active">Week</button>
+                                <button class="leaderboard-tab">MTD</button>
+                                <button class="leaderboard-tab">YTD</button>
+                            </div>
+                            <div class="leaderboard-date">
+                                <button class="date-nav-btn"><i class="fas fa-chevron-left"></i></button>
+                                <div class="current-date">
+                                    <input type="date" id="leaderboard-date" value="2025-03-18">
+                                </div>
+                                <button class="date-nav-btn"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content">
+                        <table class="leaderboard-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Top Producers</th>
+                                    <th>Agent</th>
+                                    <th>Net ALP</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="top-rank">
+                                    <td>1</td>
+                                    <td class="producer-info">
+                                        <img src="agent1.jpg" alt="Producer Avatar" class="producer-avatar">
+                                    </td>
+                                    <td>
+                                        <strong>JAMES WILSON</strong>
+                                        <div class="agency-name">METROPOLITAN</div>
+                                        <div class="agent-badge">SA</div>
+                                    </td>
+                                    <td>$42,189.45</td>
+                                </tr>
+                                <tr class="top-rank">
+                                    <td>2</td>
+                                    <td class="producer-info">
+                                        <img src="agent2.jpg" alt="Producer Avatar" class="producer-avatar">
+                                    </td>
+                                    <td>
+                                        <strong>MARIA RODRIGUEZ</strong>
+                                        <div class="agency-name">PINNACLE</div>
+                                        <div class="agent-badge">GA</div>
+                                    </td>
+                                    <td>$36,724.18</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="producer-info">
+                                        <img src="agent3.jpg" alt="Producer Avatar" class="producer-avatar">
+                                    </td>
+                                    <td>
+                                        <strong>DAVID CHEN</strong>
+                                        <div class="agency-name">SUMMIT</div>
+                                        <div class="agent-badge">SA</div>
+                                    </td>
+                                    <td>$28,951.77</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td class="producer-info">
+                                        <img src="agent4.jpg" alt="Producer Avatar" class="producer-avatar">
+                                    </td>
+                                    <td>
+                                        <strong>SARAH JOHNSON</strong>
+                                        <div class="agency-name">ALLIANCE</div>
+                                        <div class="agent-badge">GA</div>
+                                    </td>
+                                    <td>$25,367.92</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td class="producer-info">
+                                        <img src="agent5.jpg" alt="Producer Avatar" class="producer-avatar">
+                                    </td>
+                                    <td>
+                                        <strong>MICHAEL BROWN</strong>
+                                        <div class="agency-name">PREMIER</div>
+                                        <div class="agent-badge">SA</div>
+                                    </td>
+                                    <td>$22,845.31</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="data-entry-section">
+                    <h2>Enter Your Numbers</h2>
+                    <form id="data-entry-form" class="data-entry-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="entry-date">Date</label>
+                                <input type="date" id="entry-date" name="date" value="2025-03-23" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="calls-made">Calls Made</label>
+                                <input type="number" id="calls-made" name="calls" min="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointments-set">Appointments Set</label>
+                                <input type="number" id="appointments-set" name="appointments" min="0" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sits-completed">Sits Completed</label>
+                                <input type="number" id="sits-completed" name="sits" min="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sales-closed">Sales Closed</label>
+                                <input type="number" id="sales-closed" name="sales" min="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="alp-amount">ALP Amount ($)</label>
+                                <input type="number" id="alp-amount" name="alp" min="0" step="0.01" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="refs-received">References Received</label>
+                                <input type="number" id="refs-received" name="refs" min="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ref-appointments">Reference Appointments</label>
+                                <input type="number" id="ref-appointments" name="refAppointments" min="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ref-sales">Reference Sales</label>
+                                <input type="number" id="ref-sales" name="refSales" min="0" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ref-alp">Reference ALP Amount ($)</label>
+                                <input type="number" id="ref-alp" name="refAlp" min="0" step="0.01" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="notes">Notes (Optional)</label>
+                                <textarea id="notes" name="notes" rows="2"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-gold">Submit Numbers</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!-- styles.css -->
+:root {
+    --primary-bg: #000000;
+    --secondary-bg: #111111;
+    --tertiary-bg: #222222;
+    --gold: #D4AF37;
+    --gold-hover: #BF9F30;
+    --gold-light: rgba(212, 175, 55, 0.1);
+    --white: #FFFFFF;
+    --light-gray: #F0F0F0;
+    --mid-gray: #CCCCCC;
+    --dark-gray: #666666;
+    --font-main: 'Montserrat', sans-serif;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --transition: all 0.3s ease;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+    color: var(--white);
+    background-color: var(--primary-bg);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--gold);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--gold-hover);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+    border: none;
+}
+
+.btn-gold {
+    background-color: var(--gold);
+    color: var(--primary-bg);
+}
+
+.btn-gold:hover {
+    background-color: var(--gold-hover);
+    color: var(--primary-bg);
+}
+
+.btn-large {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: var(--gold);
+}
+
+/* Landing Page Styles */
+.landing-page header {
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow);
+}
+
+.landing-page header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-page nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.landing-page nav ul li {
+    margin-left: 2rem;
+}
+
+.landing-page nav ul li a {
+    color: var(--white);
+    font-weight: 500;
+}
+
+.landing-page nav ul li a:hover {
+    color: var(--gold);
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--gold);
+}
+
+.hero h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about, .opportunities, .why-join, .testimonials, .apply {
+    padding: 5rem 0;
+}
+
+.about {
+    background-color: var(--secondary-bg);
+}
+
+.about-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.stats {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--tertiary-bg);
+    border-radius: 8px;
+    flex: 0 0 calc(33.333% - 1rem);
+    margin-bottom: 1rem;
+}
+
+.stat-item h3 {
+    font-size: 2.5rem;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+}
+
+.opportunities-grid, .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.opp-card, .benefit {
+    background-color: var(--secondary-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.opp-card:hover, .benefit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.opp-card i, .benefit i {
+    font-size: 2.5rem;
+    color: var(--gold);
+    margin-bottom: 1rem;
+}
+
+.testimonials {
+    background-color: var(--secondary-bg);
+}
+
+.testimonial-slider {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.testimonial {
+    background-color: var(--tertiary-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    min-width: 300px;
+    flex: 1;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.quote:before {
+    content: '\201C';
+    font-size: 4rem;
+    position: absolute;
+    left: -1.5rem;
+    top: -1.5rem;
+    color: var(--gold);
+    opacity: 0.3;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.apply form {
+    background-color: var(--secondary-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid var(--dark-gray);
+    background-color: var(--tertiary-bg);
+    color: var(--white);
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--gold);
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.checkbox-group input {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+footer {
+    background-color: var(--secondary-bg);
+    padding: 3rem 0 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-links, .footer-contact {
+    flex: 1;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+    margin-bottom: 1rem;
+}
+
+.footer-contact i {
+    margin-right: 0.5rem;
+    color: var(--gold);
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--tertiary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.social-icons a:hover {
+    background-color: var(--gold);
+    color: var(--primary-bg);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid var(--dark-gray);
+    font-size: 0.9rem;
+    color: var(--mid-gray);
+}
+
+/* Login Page Styles */
+.login-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-bg);
+}
+
+.login-container {
+    display: flex;
+    width: 900px;
+    max-width: 90%;
+    height: 600px;
+    max-height: 90vh;
+    background-color: var(--secondary-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.login-left {
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-content {
+    max-width: 400px;
+}
+
+.login-content h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.login-content p {
+    margin-bottom: 2rem;
+    color: var(--mid-gray);
+}
+
+.login-right {
+    flex: 1;
+    position: relative;
+}
+
+.login-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('login-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember input {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.back-to-site {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Dashboard Styles */
+.dashboard-page {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.dashboard-container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 280px;
+    background-color: var(--secondary-bg);
+    height: 100%;
+    overflow-y: auto;
+    transition: var(--transition);
+}
+
+.sidebar-header {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--tertiary-bg);
+}
+
+.sidebar-toggle {
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.agent-profile {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--tertiary-bg);
+}
+
+.agent-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.agent-info h3 {
+    margin-bottom: 0.2rem;
+}
+
+.agent-info p {
+    font-size: 0.9rem;
+    color: var(--mid-gray);
+}
+
+.sidebar-nav ul {
+    list-style: none;
+}
+
+.sidebar-nav li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-nav li a {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.sidebar-nav li a:hover {
+    background-color: var(--gold-light);
+    color: var(--gold);
+}
+
+.sidebar-nav li.active a {
+    background-color: var(--gold);
+    color: var(--primary-bg);
+}
+
+.sidebar-nav li a i {
+    margin-right: 1rem;
+    width: 20px;
+    text-align: center;
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    background-color: var(--primary-bg);
+    padding: 1.5rem;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+}
+
+.date-nav-btn {
+    background: none;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.date-range {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-bg);
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+}
+
+.date-range i {
+    margin-right: 0.75rem;
+    color: var(--gold);
+}
+
+.view-selector {
+    display: flex;
+}
+
+.view-btn {
+    background-color: var(--secondary-bg);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.view-btn.active {
+    background-color: var(--gold);
+    color: var(--primary-bg);
+}
+
+.view-btn:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.view-btn:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.activity-section, .leaderboard-section, .data-entry-section {
+    background-color: var(--secondary-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.activity-metrics {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.metric-row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.metric-card {
+    background-color: var(--tertiary-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    flex: 1;
+}
+
+.metric-card h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--gold);
+}
+
+.metric-card.large {
+    flex: 1;
+}
+
+.metric-value {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(212, 175, 55, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid var(--gold);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.metric-chart {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metric-stat {
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--mid-gray);
+}
+
+.leaderboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.leaderboard-controls {
+    display: flex;
+    align-items: center;
+}
+
+.leaderboard-tabs {
+    display: flex;
+    margin-right: 1.5rem;
+}
+
+.leaderboard-tab {
+    background: none;
+    border: none;
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.leaderboard-tab.active {
+    color: var(--gold);
+    border-bottom: 2px solid var(--gold);
+}
+
+.leaderboard-date {
+    display: flex;
+    align-items: center;
+}
+
+.current-date {
+    margin: 0 0.5rem;
+}
+
+.current-date input {
+    background-color: var(--tertiary-bg);
+    border: none;
+    padding: 0.5rem;
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.leaderboard-table th {
+    background-color: var(--tertiary-bg);
+    color: var(--gold);
+}
+
+.leaderboard-table tbody tr {
+    border-bottom: 1px solid var(--tertiary-bg);
+}
+
+.leaderboard-table tbody tr:hover {
+    background-color: var(--tertiary-bg);
+}
+
+.producer-info {
+    display: flex;
+    align-items: center;
+}
+
+.producer-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.agency-name {
+    font-size: 0.9rem;
+    color: var(--mid-gray);
+    margin-top: 0.2rem;
+}
+
+.agent-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    background-color: var(--gold);
+    color: var(--primary-bg);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.data-entry-form {
+    background-color: var(--tertiary-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.form-actions {
+    text-align: right;
+    margin-top: 1.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .login-container {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .login-right {
+        display: none;
+    }
+    
+    .metric-row {
+        flex-wrap: wrap;
+    }
+    
+    .metric-card {
+        flex: 0 0 calc(50% - 0.75rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-page header .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .landing-page nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .landing-page nav ul li {
+        margin: 0 1rem 0.5rem;
+    }
+    
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+    
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+    
+    .form-row {
+        flex-direction: column;
+    }
+    
+    .dashboard-container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+    
+    .sidebar-nav {
+        display: none;
+    }
+    
+    .sidebar-nav.open {
+        display: block;
+    }
+    
+    .dashboard-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .metric-card {
+        flex: 0 0 100%;
+    }
+}
+
+/* scripts.js */
+document.addEventListener('DOMContentLoaded', function() {
+    // Toggle sidebar on mobile
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    if (sidebarToggle) {
+        sidebarToggle.addEventListener('click', function() {
+            const sidebar = document.querySelector('.sidebar-nav');
+            sidebar.classList.toggle('open');
+        });
+    }
+    
+    // Form submission for application
+    const applicationForm = document.getElementById('application-form');
+    if (applicationForm) {
+        applicationForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Your application has been submitted successfully! We will contact you soon.');
+            applicationForm.reset();
+        });
+    }
+    
+    // Form submission for login
+    const loginForm = document.getElementById('login-form');
+    if (loginForm) {
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'dashboard.html';
+        });
+    }
+    
+    // Form submission for data entry
+    const dataEntryForm = document.getElementById('data-entry-form');
+    if (dataEntryForm) {
+        dataEntryForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Your numbers have been submitted successfully!');
+            dataEntryForm.reset();
+        });
+    }
+    
+    // Date navigation
+    const prevDate = document.getElementById('prev-date');
+    const nextDate = document.getElementById('next-date');
+    const currentDateRange = document.getElementById('current-date-range');
+    
+    if (prevDate && nextDate && currentDateRange) {
+        prevDate.addEventListener('click', function() {
+            // In a real application, this would update the date range
+            alert('Navigate to previous week');
+        });
+        
+        nextDate.addEventListener('click', function() {
+            // In a real application, this would update the date range
+            alert('Navigate to next week');
+        });
+    }
+    
+    // View selector
+    const viewButtons = document.querySelectorAll('.view-btn');
+    if (viewButtons.length > 0) {
+        viewButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                viewButtons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    }
+    
+    // Leaderboard tabs
+    const leaderboardTabs = document.querySelectorAll('.leaderboard-tab');
+    if (leaderboardTabs.length > 0) {
+        leaderboardTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                leaderboardTabs.forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    }
+});
